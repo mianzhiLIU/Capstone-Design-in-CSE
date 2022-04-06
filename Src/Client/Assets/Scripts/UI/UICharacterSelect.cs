@@ -161,4 +161,14 @@ public class UICharacterSelect : MonoBehaviour {
             MessageBox.Show("게임 시작", "게임 시작", MessageBoxType.Confirm);
         }
     }
+
+    // 게임 나가
+    public void OnClickEnd()
+    {
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
+        Application.Quit(); 
+#endif
+    }
 }
