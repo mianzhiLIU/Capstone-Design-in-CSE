@@ -1,0 +1,1303 @@
+
+2022-04-05 11:15:32,996 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 11:17:32,566 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 11:17:32,841 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 11:17:32,889 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 11:17:32,889 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 11:17:32,891 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 11:17:32,891 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 11:17:32,892 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 11:17:32,894 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 11:17:34,359 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 11:17:35,357 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 11:17:35,369 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 11:18:39,862 [3] [WARN ] [GameServer] :Client[127.0.0.1:62241]] Connected
+2022-04-05 11:18:39,936 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 11:18:40,144 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 11:18:48,955 [3] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 11:19:30,958 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 11:19:31,237 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 11:19:31,279 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 11:19:31,279 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 11:19:31,279 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 11:19:31,279 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 11:19:31,279 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 11:19:31,281 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 11:19:32,758 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 11:19:33,756 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 11:19:33,839 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 11:19:50,224 [3] [WARN ] [GameServer] :Client[127.0.0.1:62360]] Connected
+2022-04-05 11:19:50,293 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 11:19:50,492 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 11:19:55,755 [3] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 11:26:42,036 [3] [WARN ] [GameServer] :Client[127.0.0.1:63417]] Connected
+2022-04-05 11:26:42,111 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 11:26:42,111 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 11:28:18,091 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 11:28:18,387 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 11:28:18,408 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 11:28:18,408 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 11:28:18,409 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 11:28:18,410 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 11:28:18,410 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 11:28:18,413 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 11:28:19,904 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 11:28:20,892 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 11:28:36,418 [3] [WARN ] [GameServer] :Client[127.0.0.1:63475]] Connected
+2022-04-05 11:28:36,487 [14] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 11:28:40,067 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 11:28:40,200 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 11:28:47,578 [15] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 11:38:24,045 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 11:38:24,215 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 11:38:24,219 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 11:38:24,220 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 11:38:24,220 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 11:38:24,220 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 11:38:24,219 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 11:38:24,219 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 11:38:26,422 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 11:38:26,684 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 11:38:26,690 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 11:38:26,690 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 11:38:26,690 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 11:38:26,690 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 11:38:26,691 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 11:38:26,695 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 11:38:28,694 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 11:38:29,703 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 11:38:29,761 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 11:38:45,137 [3] [WARN ] [GameServer] :Client[127.0.0.1:63749]] Connected
+2022-04-05 11:38:45,208 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 11:38:45,407 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 11:38:53,518 [14] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 11:38:53,519 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 11:38:53,657 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 11:38:53,658 [6] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 11:38:53,784 [14] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 11:38:53,785 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 11:38:53,920 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 11:38:53,921 [6] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 11:38:54,054 [14] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 11:38:54,054 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 11:39:06,829 [3] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 11:39:31,707 [3] [WARN ] [GameServer] :Client[127.0.0.1:63770]] Connected
+2022-04-05 11:39:31,778 [13] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 11:39:37,257 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 11:39:52,671 [13] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 12:47:05,057 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 12:47:05,315 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 12:47:06,388 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 12:47:06,388 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 12:47:06,389 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 12:47:06,390 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 12:47:06,390 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 12:47:06,421 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 12:47:07,378 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 12:47:08,374 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 12:47:08,387 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 12:51:32,329 [3] [WARN ] [GameServer] :Client[127.0.0.1:53686]] Connected
+2022-04-05 12:51:32,401 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 12:51:32,601 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 12:53:53,874 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 12:53:54,288 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 12:53:54,614 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 12:53:54,615 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 12:53:54,616 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 12:53:54,616 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 12:53:54,616 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 12:53:54,617 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 12:53:56,377 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 12:53:57,376 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 12:53:57,404 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 12:54:14,086 [3] [WARN ] [GameServer] :Client[127.0.0.1:53745]] Connected
+2022-04-05 12:54:14,153 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 12:54:14,350 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 12:54:47,762 [14] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 12:58:19,582 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 12:58:19,876 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 12:58:19,944 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 12:58:19,945 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 12:58:19,953 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 12:58:19,961 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 12:58:19,964 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 12:58:19,967 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 12:58:20,896 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 12:58:21,890 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 12:58:21,920 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 12:58:44,998 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 12:58:45,235 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 12:58:45,242 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 12:58:45,244 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 12:58:45,244 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 12:58:45,246 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 12:58:45,246 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 12:58:45,251 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 12:58:46,752 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 12:58:47,754 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 12:58:48,576 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 12:59:12,238 [3] [WARN ] [GameServer] :Client[127.0.0.1:53889]] Connected
+2022-04-05 12:59:12,307 [3] [WARN ] [GameServer] :Client[] DataReceived Len:18
+2022-04-05 12:59:12,530 [5] [INFO ] [GameServer] :UserRegisterRequest: User:000  Pass:111
+2022-04-05 12:59:20,063 [13] [WARN ] [GameServer] :Client[] DataReceived Len:18
+2022-04-05 12:59:20,067 [5] [INFO ] [GameServer] :UserLoginRequest: User:000  Pass:111
+2022-04-05 13:00:03,916 [3] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 14:45:01,891 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 14:45:02,153 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 14:45:02,184 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 14:45:02,184 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 14:45:02,184 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 14:45:02,184 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 14:45:02,184 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 14:45:02,185 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 14:45:03,167 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 14:45:04,175 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 14:45:04,232 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 14:45:24,560 [3] [WARN ] [GameServer] :Client[127.0.0.1:57726]] Connected
+2022-04-05 14:45:24,626 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 14:45:24,823 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 14:48:14,503 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 14:48:14,738 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 14:48:15,677 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 14:48:15,677 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 14:48:15,688 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 14:48:15,689 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 14:48:15,791 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 14:48:15,796 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 14:48:16,676 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 14:48:17,184 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 14:48:17,289 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 14:48:35,065 [3] [WARN ] [GameServer] :Client[127.0.0.1:57782]] Connected
+2022-04-05 14:48:35,136 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 14:48:35,340 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 14:49:50,574 [14] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 14:49:50,575 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 14:49:52,774 [13] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 14:52:49,175 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 14:52:49,407 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 14:52:49,487 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 14:52:49,487 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 14:52:49,488 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 14:52:49,488 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 14:52:49,490 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 14:52:49,492 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 14:52:50,928 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 14:52:51,914 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 14:52:52,004 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 14:53:14,058 [3] [WARN ] [GameServer] :Client[127.0.0.1:50021]] Connected
+2022-04-05 14:53:14,126 [13] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 14:53:22,127 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 14:54:22,556 [14] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 15:01:30,318 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 15:01:30,565 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 15:01:30,600 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:01:30,637 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:01:30,605 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:01:30,638 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:01:30,638 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:01:30,639 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:01:32,076 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:01:33,082 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:01:33,172 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 15:02:42,455 [3] [WARN ] [GameServer] :Client[127.0.0.1:50342]] Connected
+2022-04-05 15:02:42,522 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 15:02:42,717 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 15:03:00,181 [13] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 15:04:49,066 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 15:04:49,308 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 15:04:49,318 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 15:04:49,338 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:04:49,338 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:04:49,338 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:04:49,338 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:04:49,338 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:04:49,338 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:04:50,329 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:04:51,333 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:04:51,376 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 15:05:16,671 [3] [WARN ] [GameServer] :Client[127.0.0.1:50397]] Connected
+2022-04-05 15:05:16,740 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 15:05:16,947 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 15:05:29,293 [13] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 15:08:18,556 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 15:08:18,797 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 15:08:18,806 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 15:08:18,851 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:08:18,852 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:08:18,852 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:08:18,854 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:08:18,855 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:08:18,859 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:08:20,314 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:08:21,315 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:08:21,344 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 15:08:43,793 [3] [WARN ] [GameServer] :Client[127.0.0.1:50463]] Connected
+2022-04-05 15:08:43,862 [3] [WARN ] [GameServer] :Client[] DataReceived Len:23
+2022-04-05 15:08:44,052 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:1111
+2022-04-05 15:08:51,231 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 15:08:51,232 [6] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 15:09:23,549 [13] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 15:23:13,546 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 15:23:13,811 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 15:23:13,822 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 15:23:13,864 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:23:13,864 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:23:13,864 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:23:13,864 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:23:13,865 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:23:13,866 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:23:14,840 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:23:15,833 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:23:15,889 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 15:23:46,446 [3] [WARN ] [GameServer] :Client[127.0.0.1:63789]] Connected
+2022-04-05 15:23:46,511 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 15:23:46,703 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 15:23:55,064 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 15:23:55,065 [6] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 15:23:55,207 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 15:23:55,208 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 15:23:55,334 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 15:23:55,335 [6] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 15:27:24,516 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 15:27:24,884 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 15:27:25,686 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 15:27:25,702 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:27:25,702 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:27:25,703 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:27:25,703 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:27:25,703 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:27:25,703 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:27:26,691 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:27:27,697 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:27:27,726 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 15:27:41,361 [3] [WARN ] [GameServer] :Client[127.0.0.1:63918]] Connected
+2022-04-05 15:27:41,430 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 15:27:41,620 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 15:30:58,563 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 15:30:59,199 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 15:30:59,291 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 15:30:59,358 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:30:59,358 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:30:59,359 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:30:59,359 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:30:59,359 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:30:59,360 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:31:00,821 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:31:01,812 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:31:01,869 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 15:31:24,008 [3] [WARN ] [GameServer] :Client[127.0.0.1:64013]] Connected
+2022-04-05 15:31:24,073 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 15:31:24,261 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 15:31:48,190 [13] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 15:31:48,191 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 15:31:48,831 [15] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 15:31:48,831 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 15:31:48,958 [15] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 15:31:48,958 [6] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 15:31:49,087 [13] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 15:31:49,088 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 15:31:49,231 [15] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 15:31:49,231 [6] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 15:32:13,893 [15] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 15:32:13,894 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 15:32:26,127 [16] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 15:32:26,128 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 15:48:13,703 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 15:48:14,036 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 15:48:16,807 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 15:48:16,849 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:48:16,849 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:48:16,850 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:48:16,850 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:48:16,853 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:48:16,853 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:48:17,823 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:48:18,819 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:48:18,922 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 15:48:39,072 [3] [WARN ] [GameServer] :Client[127.0.0.1:64398]] Connected
+2022-04-05 15:48:39,140 [14] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 15:48:44,668 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 15:50:00,165 [15] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 15:51:14,507 [16] [WARN ] [GameServer] :Client[127.0.0.1:49526]] Connected
+2022-04-05 15:51:32,521 [18] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 15:51:42,497 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 15:51:42,498 [16] [WARN ] [GameServer] :Client[] DataReceived Len:242
+2022-04-05 15:51:42,499 [9] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 15:51:42,499 [10] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 15:51:42,499 [7] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 15:51:42,500 [6] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 15:51:42,500 [11] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 15:51:42,499 [18] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 15:51:42,501 [8] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 15:51:42,501 [12] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 15:51:42,514 [9] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 15:51:42,519 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 15:51:42,570 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 15:51:42,589 [6] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 15:51:42,627 [10] [ERROR] [GameServer] :Message handler exception:System.InvalidOperationException: There is already an open DataReader associated with this Command which must be closed first.
+   at System.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior), An error occurred while executing the command definition. See the inner exception for details., EntityFramework,    at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at GameServer.Services.UserService.OnLogin(NetConnection`1 sender, UserLoginRequest request) in E:\Github\Extreme-Wolrd\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:line 38
+   at Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) in E:\Github\Extreme-Wolrd\Src\Lib\Common\Network\MessageDistributer.cs:line 105
+2022-04-05 15:51:42,627 [9] [ERROR] [GameServer] :Message handler exception:System.InvalidOperationException: There is already an open DataReader associated with this Command which must be closed first.
+   at System.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior), An error occurred while executing the command definition. See the inner exception for details., EntityFramework,    at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at GameServer.Services.UserService.OnLogin(NetConnection`1 sender, UserLoginRequest request) in E:\Github\Extreme-Wolrd\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:line 38
+   at Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) in E:\Github\Extreme-Wolrd\Src\Lib\Common\Network\MessageDistributer.cs:line 105
+2022-04-05 15:51:42,629 [11] [ERROR] [GameServer] :Message handler exception:System.InvalidOperationException: There is already an open DataReader associated with this Command which must be closed first.
+   at System.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior), An error occurred while executing the command definition. See the inner exception for details., EntityFramework,    at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at GameServer.Services.UserService.OnLogin(NetConnection`1 sender, UserLoginRequest request) in E:\Github\Extreme-Wolrd\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:line 38
+   at Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) in E:\Github\Extreme-Wolrd\Src\Lib\Common\Network\MessageDistributer.cs:line 105
+2022-04-05 15:51:42,657 [6] [ERROR] [GameServer] :Message handler exception:System.InvalidOperationException: There is already an open DataReader associated with this Command which must be closed first.
+   at System.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior), An error occurred while executing the command definition. See the inner exception for details., EntityFramework,    at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at GameServer.Services.UserService.OnLogin(NetConnection`1 sender, UserLoginRequest request) in E:\Github\Extreme-Wolrd\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:line 38
+   at Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) in E:\Github\Extreme-Wolrd\Src\Lib\Common\Network\MessageDistributer.cs:line 105
+2022-04-05 15:51:42,675 [5] [ERROR] [GameServer] :Message handler exception:System.InvalidOperationException: There is already an open DataReader associated with this Command which must be closed first.
+   at System.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior), An error occurred while executing the command definition. See the inner exception for details., EntityFramework,    at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at GameServer.Services.UserService.OnLogin(NetConnection`1 sender, UserLoginRequest request) in E:\Github\Extreme-Wolrd\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:line 38
+   at Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) in E:\Github\Extreme-Wolrd\Src\Lib\Common\Network\MessageDistributer.cs:line 105
+2022-04-05 15:51:42,696 [8] [ERROR] [GameServer] :Message handler exception:System.InvalidOperationException: There is already an open DataReader associated with this Command which must be closed first.
+   at System.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior), An error occurred while executing the command definition. See the inner exception for details., EntityFramework,    at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at GameServer.Services.UserService.OnLogin(NetConnection`1 sender, UserLoginRequest request) in E:\Github\Extreme-Wolrd\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:line 38
+   at Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) in E:\Github\Extreme-Wolrd\Src\Lib\Common\Network\MessageDistributer.cs:line 105
+2022-04-05 15:51:52,336 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 15:51:52,696 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 15:51:53,456 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 15:51:53,565 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:51:53,565 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:51:53,566 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:51:53,567 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:51:53,568 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:51:53,569 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:51:54,487 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:51:55,481 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:51:55,495 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 15:52:10,121 [3] [WARN ] [GameServer] :Client[127.0.0.1:64068]] Connected
+2022-04-05 15:52:10,191 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 15:52:10,389 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 15:52:17,407 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 15:52:17,407 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 15:52:17,750 [14] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 15:52:17,751 [6] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 15:52:17,878 [14] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 15:52:17,879 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 15:52:18,013 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 15:52:18,014 [6] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 15:52:18,133 [14] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 15:52:18,133 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 15:52:18,280 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 15:52:18,281 [6] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 15:52:20,777 [14] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 15:52:50,084 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 15:52:50,328 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 15:52:50,337 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 15:52:50,387 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:52:50,387 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:52:50,388 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:52:50,388 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:52:50,390 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:52:50,391 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:52:51,858 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:52:52,843 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 15:52:52,903 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 15:53:41,314 [3] [WARN ] [GameServer] :Client[127.0.0.1:64130]] Connected
+2022-04-05 15:54:05,707 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 15:54:05,887 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 15:55:25,056 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 15:55:25,077 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 16:01:07,870 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 16:01:08,158 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 16:01:08,172 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 16:01:08,180 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:01:08,181 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:01:08,186 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:01:08,187 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:01:08,187 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:01:08,188 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:01:09,189 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:01:10,185 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:01:10,243 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 16:01:43,144 [3] [WARN ] [GameServer] :Client[127.0.0.1:54517]] Connected
+2022-04-05 16:01:43,233 [14] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 16:01:43,476 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 16:01:45,736 [13] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 16:01:45,736 [6] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 16:01:54,252 [13] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 16:05:18,124 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 16:05:18,399 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 16:05:18,416 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 16:05:18,456 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:05:18,457 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:05:18,457 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:05:18,457 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:05:18,484 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:05:18,484 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:05:19,931 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:05:20,931 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:05:34,959 [3] [WARN ] [GameServer] :Client[127.0.0.1:54651]] Connected
+2022-04-05 16:05:35,026 [14] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 16:05:39,083 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 16:05:39,289 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 16:05:48,672 [15] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 16:12:31,505 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 16:12:31,505 [14] [WARN ] [GameServer] :Client[] DataReceived Len:198
+2022-04-05 16:12:31,505 [7] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 16:12:31,505 [6] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 16:12:31,506 [9] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 16:12:31,506 [11] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 16:12:31,505 [10] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 16:12:31,506 [12] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 16:12:31,506 [8] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 16:12:31,512 [22] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 16:12:31,570 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 16:12:31,614 [8] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 16:12:31,623 [7] [ERROR] [GameServer] :Message handler exception:System.InvalidOperationException: The connection was not closed. The connection's current state is connecting.
+   at System.Data.ProviderBase.DbConnectionClosedConnecting.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open(), The underlying provider failed on Open., EntityFramework,    at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at GameServer.Services.UserService.OnLogin(NetConnection`1 sender, UserLoginRequest request) in E:\Github\Extreme-Wolrd\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:line 38
+   at Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) in E:\Github\Extreme-Wolrd\Src\Lib\Common\Network\MessageDistributer.cs:line 105
+2022-04-05 16:12:31,623 [6] [ERROR] [GameServer] :Message handler exception:System.InvalidOperationException: There is already an open DataReader associated with this Command which must be closed first.
+   at System.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior), An error occurred while executing the command definition. See the inner exception for details., EntityFramework,    at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at GameServer.Services.UserService.OnLogin(NetConnection`1 sender, UserLoginRequest request) in E:\Github\Extreme-Wolrd\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:line 38
+   at Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) in E:\Github\Extreme-Wolrd\Src\Lib\Common\Network\MessageDistributer.cs:line 105
+2022-04-05 16:12:31,623 [9] [ERROR] [GameServer] :Message handler exception:System.InvalidOperationException: The connection was not closed. The connection's current state is connecting.
+   at System.Data.ProviderBase.DbConnectionClosedConnecting.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open(), The underlying provider failed on Open., EntityFramework,    at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at GameServer.Services.UserService.OnLogin(NetConnection`1 sender, UserLoginRequest request) in E:\Github\Extreme-Wolrd\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:line 38
+   at Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) in E:\Github\Extreme-Wolrd\Src\Lib\Common\Network\MessageDistributer.cs:line 105
+2022-04-05 16:12:31,624 [10] [ERROR] [GameServer] :Message handler exception:System.InvalidOperationException: The connection was not closed. The connection's current state is connecting.
+   at System.Data.ProviderBase.DbConnectionClosedConnecting.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open(), The underlying provider failed on Open., EntityFramework,    at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at GameServer.Services.UserService.OnLogin(NetConnection`1 sender, UserLoginRequest request) in E:\Github\Extreme-Wolrd\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:line 38
+   at Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) in E:\Github\Extreme-Wolrd\Src\Lib\Common\Network\MessageDistributer.cs:line 105
+2022-04-05 16:12:52,718 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 16:12:53,338 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 16:12:53,371 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 16:12:53,421 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:12:53,425 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:12:53,433 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:12:53,434 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:12:53,435 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:12:53,434 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:12:54,404 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:12:55,398 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:12:55,443 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 16:13:17,684 [3] [WARN ] [GameServer] :Client[127.0.0.1:54849]] Connected
+2022-04-05 16:13:17,766 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 16:13:18,073 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 16:14:28,277 [13] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 16:14:31,243 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 16:14:53,389 [15] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 16:14:53,390 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 16:27:23,944 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 16:27:24,226 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 16:27:24,241 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 16:27:24,246 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:27:24,246 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:27:24,251 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:27:24,252 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:27:24,254 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:27:24,257 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:27:26,254 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:27:27,245 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:27:27,303 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 16:28:45,518 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 16:28:45,745 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 16:28:45,758 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 16:28:45,804 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:28:45,804 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:28:45,805 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:28:45,805 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:28:45,807 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:28:45,808 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:28:47,277 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:28:48,269 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:28:48,283 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 16:29:05,453 [3] [WARN ] [GameServer] :Client[127.0.0.1:55436]] Connected
+2022-04-05 16:29:05,510 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 16:29:05,712 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 16:29:17,327 [14] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 16:29:22,992 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 16:29:22,992 [3] [WARN ] [GameServer] :Client[] DataReceived Len:88
+2022-04-05 16:29:22,993 [6] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 16:29:22,993 [7] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 16:29:22,993 [8] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 16:29:22,993 [9] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 16:29:23,066 [7] [ERROR] [GameServer] :Message handler exception:System.InvalidOperationException: There is already an open DataReader associated with this Command which must be closed first.
+   at System.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior), An error occurred while executing the command definition. See the inner exception for details., EntityFramework,    at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at GameServer.Services.UserService.OnLogin(NetConnection`1 sender, UserLoginRequest request) in E:\Github\Extreme-Wolrd\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:line 38
+   at Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) in E:\Github\Extreme-Wolrd\Src\Lib\Common\Network\MessageDistributer.cs:line 105
+2022-04-05 16:29:23,066 [9] [ERROR] [GameServer] :Message handler exception:System.InvalidOperationException: There is already an open DataReader associated with this Command which must be closed first.
+   at System.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior), An error occurred while executing the command definition. See the inner exception for details., EntityFramework,    at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at GameServer.Services.UserService.OnLogin(NetConnection`1 sender, UserLoginRequest request) in E:\Github\Extreme-Wolrd\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:line 38
+   at Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) in E:\Github\Extreme-Wolrd\Src\Lib\Common\Network\MessageDistributer.cs:line 105
+2022-04-05 16:29:23,067 [6] [ERROR] [GameServer] :Message handler exception:System.InvalidOperationException: There is already an open DataReader associated with this Command which must be closed first.
+   at System.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior), An error occurred while executing the command definition. See the inner exception for details., EntityFramework,    at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at GameServer.Services.UserService.OnLogin(NetConnection`1 sender, UserLoginRequest request) in E:\Github\Extreme-Wolrd\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:line 38
+   at Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) in E:\Github\Extreme-Wolrd\Src\Lib\Common\Network\MessageDistributer.cs:line 105
+2022-04-05 16:37:12,493 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 16:37:12,774 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 16:37:12,792 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 16:37:12,796 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:37:12,796 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:37:12,801 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:37:12,801 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:37:12,808 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:37:12,812 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:37:14,303 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:37:15,299 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 16:37:15,404 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 16:37:36,133 [3] [WARN ] [GameServer] :Client[127.0.0.1:55676]] Connected
+2022-04-05 16:37:36,187 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 16:37:36,380 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 16:38:17,048 [14] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 16:38:39,435 [14] [WARN ] [GameServer] :Client[127.0.0.1:55709]] Connected
+2022-04-05 16:38:39,499 [14] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 16:38:39,499 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 16:40:35,004 [14] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 17:16:05,054 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 17:16:05,306 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 17:16:33,276 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 17:16:33,320 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 17:16:33,321 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 17:16:33,321 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 17:16:33,322 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 17:16:33,322 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 17:16:33,324 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 17:16:34,284 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 17:16:34,795 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 17:16:34,869 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 17:22:46,223 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 17:22:46,498 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 17:22:46,513 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 17:22:46,571 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 17:22:46,572 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 17:22:46,574 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 17:22:46,574 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 17:22:46,585 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 17:22:46,592 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 17:22:48,028 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 17:22:49,026 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 17:22:49,131 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 17:23:12,149 [3] [WARN ] [GameServer] :Client[127.0.0.1:58802]] Connected
+2022-04-05 17:23:12,211 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 17:23:12,413 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 17:24:25,359 [13] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 17:24:39,978 [15] [WARN ] [GameServer] :Client[127.0.0.1:58857]] Connected
+2022-04-05 17:24:40,040 [15] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 17:24:40,041 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 17:25:25,563 [15] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 17:27:33,080 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 17:27:33,849 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 17:27:33,897 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 17:27:34,004 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 17:27:34,015 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 17:27:34,016 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 17:27:34,019 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 17:27:34,021 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 17:27:34,023 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 17:27:34,916 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 17:27:35,916 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 17:27:35,930 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 17:27:54,158 [3] [WARN ] [GameServer] :Client[127.0.0.1:58979]] Connected
+2022-04-05 17:27:54,221 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 17:27:54,421 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 17:31:29,617 [14] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 17:31:43,253 [16] [WARN ] [GameServer] :Client[127.0.0.1:59125]] Connected
+2022-04-05 17:31:43,317 [16] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 17:31:43,317 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 17:33:46,773 [16] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 17:34:02,259 [21] [WARN ] [GameServer] :Client[127.0.0.1:59208]] Connected
+2022-04-05 17:34:02,322 [23] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 17:34:02,322 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 17:42:50,520 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 17:42:50,783 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 17:42:50,798 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 17:42:50,804 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 17:42:50,804 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 17:42:50,804 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 17:42:50,804 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 17:42:50,806 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 17:42:50,811 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 17:42:52,310 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 17:42:53,313 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 17:42:53,342 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 17:43:05,862 [3] [WARN ] [GameServer] :Client[127.0.0.1:59657]] Connected
+2022-04-05 17:43:05,922 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 17:43:06,123 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 17:43:08,557 [14] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 17:44:19,444 [14] [WARN ] [GameServer] :Client[127.0.0.1:49195]] Connected
+2022-04-05 17:44:19,508 [14] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 17:44:19,509 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 17:44:19,677 [13] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 19:15:53,016 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 19:15:53,293 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 19:15:53,322 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 19:15:53,406 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 19:15:53,406 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 19:15:53,407 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 19:15:53,407 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 19:15:53,409 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 19:15:53,413 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 19:15:55,328 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 19:15:56,337 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 19:16:24,163 [3] [WARN ] [GameServer] :Client[127.0.0.1:60879]] Connected
+2022-04-05 19:16:24,220 [13] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 19:16:29,641 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 19:16:29,792 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 19:16:32,250 [14] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 19:22:21,284 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 19:22:21,541 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 19:22:21,559 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 19:22:21,641 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 19:22:21,642 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 19:22:21,643 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 19:22:21,643 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 19:22:21,644 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 19:22:21,645 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 19:22:23,068 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 19:22:23,573 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 19:22:23,646 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 19:23:14,378 [3] [WARN ] [GameServer] :Client[127.0.0.1:61064]] Connected
+2022-04-05 19:23:14,443 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 19:23:14,645 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 19:23:17,113 [3] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 19:44:46,213 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 19:44:46,395 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 19:44:46,406 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 19:44:46,455 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 19:44:46,455 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 19:44:46,455 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 19:44:46,455 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 19:44:46,455 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 19:44:46,457 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 19:44:47,427 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 19:44:48,418 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 19:44:48,476 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 19:47:15,610 [3] [WARN ] [GameServer] :Client[127.0.0.1:61644]] Connected
+2022-04-05 19:47:15,677 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 19:47:15,876 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 19:47:18,340 [13] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 19:50:24,950 [13] [WARN ] [GameServer] :Client[127.0.0.1:61761]] Connected
+2022-04-05 19:50:25,018 [13] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 19:50:25,019 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 19:50:25,189 [16] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 19:50:50,634 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 19:50:50,880 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 19:50:50,889 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 19:50:50,901 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 19:50:50,901 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 19:50:50,901 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 19:50:50,907 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 19:50:50,907 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 19:50:50,908 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 19:50:51,899 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 19:50:52,905 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 19:50:52,964 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 19:51:06,734 [3] [WARN ] [GameServer] :Client[127.0.0.1:61790]] Connected
+2022-04-05 19:51:06,797 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 19:51:06,986 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 19:51:09,417 [14] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 19:52:31,368 [14] [WARN ] [GameServer] :Client[127.0.0.1:61856]] Connected
+2022-04-05 19:52:31,437 [16] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 19:52:37,901 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 19:52:38,092 [16] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 20:01:53,103 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 20:01:53,309 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 20:01:53,318 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 20:01:53,389 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:01:53,389 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:01:53,390 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:01:53,390 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:01:53,393 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:01:53,394 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:01:54,839 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:01:55,825 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:02:15,602 [3] [WARN ] [GameServer] :Client[127.0.0.1:57437]] Connected
+2022-04-05 20:02:15,668 [14] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 20:02:21,500 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 20:02:21,718 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 20:02:24,108 [15] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 20:03:56,391 [15] [WARN ] [GameServer] :Client[127.0.0.1:57484]] Connected
+2022-04-05 20:03:56,457 [17] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 20:03:59,860 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 20:04:00,044 [17] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 20:08:59,427 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 20:08:59,657 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 20:08:59,669 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 20:08:59,713 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:08:59,713 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:08:59,713 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:08:59,713 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:08:59,713 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:08:59,714 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:09:00,677 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:09:01,192 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:09:18,196 [3] [WARN ] [GameServer] :Client[127.0.0.1:57673]] Connected
+2022-04-05 20:09:18,263 [14] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 20:09:22,391 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 20:09:22,504 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 20:09:27,826 [15] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 20:20:04,485 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 20:20:04,735 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 20:20:04,750 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 20:20:04,782 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:20:04,782 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:20:04,784 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:20:04,784 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:20:04,785 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:20:04,785 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:20:06,265 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:20:07,270 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:20:07,283 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 20:20:44,161 [3] [WARN ] [GameServer] :Client[127.0.0.1:65496]] Connected
+2022-04-05 20:20:44,226 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 20:20:44,420 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 20:20:54,887 [13] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 20:20:54,888 [6] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 20:22:25,055 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 20:22:25,055 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 20:22:47,349 [15] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 20:22:51,633 [15] [WARN ] [GameServer] :Client[127.0.0.1:49188]] Connected
+2022-04-05 20:23:13,757 [15] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 20:23:25,309 [15] [WARN ] [GameServer] :Client[127.0.0.1:49216]] Connected
+2022-04-05 20:23:25,375 [15] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 20:23:25,376 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 20:23:25,570 [16] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 20:27:01,105 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 20:27:01,356 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 20:27:03,848 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 20:27:03,852 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:27:03,853 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:27:03,854 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:27:03,854 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:27:03,858 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:27:03,859 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:27:04,856 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:27:05,864 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:27:31,332 [3] [WARN ] [GameServer] :Client[127.0.0.1:49355]] Connected
+2022-04-05 20:27:31,397 [13] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 20:27:36,207 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 20:27:36,399 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 20:27:38,758 [13] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 20:29:50,551 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 20:29:50,782 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 20:29:50,795 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 20:29:50,829 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:29:50,829 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:29:50,829 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:29:50,829 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:29:50,832 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:29:50,832 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:29:52,314 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:29:53,309 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:29:53,382 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 20:31:22,857 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 20:31:23,228 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 20:31:23,272 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 20:31:23,944 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:31:23,944 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:31:23,944 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:31:23,954 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:31:23,961 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:31:23,962 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:31:25,913 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:31:26,913 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:31:26,971 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 20:32:04,388 [3] [WARN ] [GameServer] :Client[127.0.0.1:56147]] Connected
+2022-04-05 20:32:04,448 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 20:32:04,647 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 20:32:07,055 [3] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 20:32:57,823 [3] [WARN ] [GameServer] :Client[127.0.0.1:56181]] Connected
+2022-04-05 20:32:58,045 [15] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 20:33:03,700 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 20:34:05,040 [13] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 20:36:12,483 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 20:36:12,685 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 20:36:12,695 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 20:36:12,702 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:36:12,702 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:36:12,703 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:36:12,703 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:36:12,707 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:36:12,707 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:36:14,212 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:36:15,208 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:36:15,282 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 20:36:30,924 [3] [WARN ] [GameServer] :Client[127.0.0.1:56277]] Connected
+2022-04-05 20:36:30,980 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 20:36:31,179 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 20:36:33,582 [14] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 20:45:01,317 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 20:45:01,538 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 20:45:01,559 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 20:45:01,584 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:45:01,584 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:45:01,585 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:45:01,585 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:45:01,587 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:45:01,589 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:45:03,084 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:45:04,078 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:45:04,184 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 20:45:20,091 [3] [WARN ] [GameServer] :Client[127.0.0.1:56547]] Connected
+2022-04-05 20:45:20,153 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 20:45:20,347 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 20:59:22,099 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 20:59:22,300 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 20:59:22,316 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 20:59:22,364 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:59:22,364 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:59:22,364 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:59:22,400 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:59:22,369 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:59:22,400 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:59:23,835 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:59:24,828 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 20:59:24,916 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 20:59:40,103 [3] [WARN ] [GameServer] :Client[127.0.0.1:54164]] Connected
+2022-04-05 20:59:40,156 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 20:59:40,352 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 21:00:00,947 [3] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 21:00:17,625 [3] [WARN ] [GameServer] :Client[127.0.0.1:54205]] Connected
+2022-04-05 21:00:17,684 [14] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 21:00:23,040 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 21:00:23,201 [13] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 21:12:59,225 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 21:13:04,479 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 21:13:04,488 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 21:13:04,544 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:13:04,544 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:13:04,544 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:13:04,545 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:13:04,549 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:13:04,549 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:13:05,505 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:13:06,500 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:13:10,371 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 21:14:28,032 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 21:14:28,282 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 21:14:28,295 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 21:14:28,337 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:14:28,338 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:14:28,338 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:14:28,339 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:14:28,341 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:14:28,346 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:14:29,807 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:14:30,819 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:14:45,771 [3] [WARN ] [GameServer] :Client[127.0.0.1:54683]] Connected
+2022-04-05 21:14:45,833 [14] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 21:14:50,203 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 21:14:50,315 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 21:18:14,407 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 21:18:14,636 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 21:18:14,655 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 21:18:14,663 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:18:14,663 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:18:14,663 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:18:14,664 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:18:14,670 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:18:14,671 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:18:16,166 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:18:17,174 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:18:17,278 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 21:18:41,228 [3] [WARN ] [GameServer] :Client[127.0.0.1:54866]] Connected
+2022-04-05 21:18:41,284 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 21:18:41,482 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 21:21:13,631 [13] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 21:21:27,720 [15] [WARN ] [GameServer] :Client[127.0.0.1:54969]] Connected
+2022-04-05 21:21:27,936 [13] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 21:21:53,919 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 21:22:38,210 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 21:22:38,815 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 21:22:40,216 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 21:22:40,256 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:22:40,256 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:22:40,256 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:22:40,256 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:22:40,257 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:22:40,256 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:22:41,225 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:22:42,223 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:22:42,236 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 21:23:33,343 [3] [WARN ] [GameServer] :Client[127.0.0.1:52204]] Connected
+2022-04-05 21:23:33,558 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 21:23:33,767 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 21:24:17,927 [13] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 21:24:17,927 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 21:24:58,027 [13] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 21:25:01,167 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 21:26:45,884 [16] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 21:26:45,885 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 21:29:26,403 [18] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 21:29:26,404 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 21:30:41,102 [23] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 21:30:41,102 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 21:31:46,484 [26] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 21:31:46,485 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 21:33:09,596 [29] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 21:33:09,597 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 21:45:01,242 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 21:45:01,633 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 21:45:01,695 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 21:45:01,761 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:45:01,772 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:45:01,774 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:45:01,774 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:45:01,897 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:45:01,897 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:45:03,210 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:45:03,714 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:45:03,771 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 21:46:08,726 [3] [WARN ] [GameServer] :Client[127.0.0.1:53672]] Connected
+2022-04-05 21:46:08,784 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 21:46:08,982 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 21:49:45,946 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 21:49:46,169 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 21:49:46,185 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 21:49:46,191 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:49:46,191 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:49:46,218 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:49:46,218 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:49:46,218 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:49:46,219 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:49:47,205 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:49:48,190 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 21:49:48,235 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 21:50:08,862 [3] [WARN ] [GameServer] :Client[127.0.0.1:53797]] Connected
+2022-04-05 21:50:08,922 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 21:50:09,125 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 21:53:26,627 [14] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 22:13:21,210 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 22:13:21,486 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 22:13:22,314 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 22:13:22,415 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:13:22,416 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:13:22,417 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:13:22,420 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:13:22,420 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:13:22,422 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:13:23,326 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:13:24,335 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:13:24,441 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 22:13:39,613 [3] [WARN ] [GameServer] :Client[127.0.0.1:49836]] Connected
+2022-04-05 22:13:39,678 [14] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 22:13:46,007 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 22:18:56,588 [15] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 22:18:56,589 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 22:18:57,308 [20] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 22:18:57,309 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 22:18:57,652 [20] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 22:18:57,653 [6] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 22:24:21,494 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 22:24:21,752 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 22:24:21,766 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 22:24:21,877 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:24:21,877 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:24:21,878 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:24:21,878 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:24:21,878 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:24:21,891 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:24:24,775 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:24:25,773 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:24:25,801 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 22:24:37,727 [3] [WARN ] [GameServer] :Client[127.0.0.1:50113]] Connected
+2022-04-05 22:24:37,793 [3] [WARN ] [GameServer] :Client[] DataReceived Len:21
+2022-04-05 22:24:37,987 [5] [INFO ] [GameServer] :UserLoginRequest: User:use001  Pass:111
+2022-04-05 22:24:52,815 [14] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 22:24:52,818 [5] [INFO ] [GameServer] :UserRegisterRequest: User:user001  Pass:111
+2022-04-05 22:24:57,476 [14] [WARN ] [GameServer] :Client[] DataReceived Len:21
+2022-04-05 22:24:57,477 [5] [INFO ] [GameServer] :UserLoginRequest: User:use001  Pass:111
+2022-04-05 22:25:04,375 [13] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 22:25:04,376 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 22:30:16,802 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 22:30:17,089 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 22:30:17,104 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 22:30:17,123 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:30:17,123 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:30:17,123 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:30:17,127 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:30:17,127 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:30:17,156 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:30:18,111 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:30:24,174 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 22:30:24,403 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 22:30:24,411 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 22:30:24,422 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:30:24,424 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:30:24,424 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:30:24,424 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:30:24,425 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:30:24,427 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:30:25,426 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:30:26,425 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:30:26,500 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 22:32:22,706 [3] [WARN ] [GameServer] :Client[127.0.0.1:50368]] Connected
+2022-04-05 22:32:22,762 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 22:32:22,955 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 22:34:17,624 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 22:34:18,270 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 22:34:18,379 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 22:34:18,397 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:34:18,533 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:34:18,533 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:34:18,497 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:34:18,535 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:34:18,536 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:34:19,398 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:34:19,902 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:34:19,915 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 22:34:31,773 [3] [WARN ] [GameServer] :Client[127.0.0.1:50464]] Connected
+2022-04-05 22:34:31,836 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 22:34:32,026 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 22:35:19,372 [3] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 22:40:47,415 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 22:40:47,733 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 22:40:47,744 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 22:40:47,789 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:40:47,817 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:40:47,849 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:40:47,850 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:40:47,851 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:40:47,851 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:40:49,761 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:40:50,771 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:40:50,830 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 22:41:20,636 [3] [WARN ] [GameServer] :Client[127.0.0.1:50678]] Connected
+2022-04-05 22:41:20,699 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 22:41:20,895 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 22:41:30,916 [13] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 22:41:44,066 [13] [WARN ] [GameServer] :Client[127.0.0.1:50697]] Connected
+2022-04-05 22:41:44,126 [13] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 22:41:44,126 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 22:41:47,685 [15] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 22:41:47,686 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 22:48:36,462 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 22:48:36,687 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 22:48:36,704 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 22:48:36,871 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:48:36,871 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:48:36,873 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:48:36,873 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:48:36,884 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:48:36,970 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:48:38,217 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:48:39,227 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:48:39,240 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 22:48:54,421 [3] [WARN ] [GameServer] :Client[127.0.0.1:50883]] Connected
+2022-04-05 22:48:54,484 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 22:48:54,675 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 22:50:50,758 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-05 22:50:51,132 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-04-05 22:50:51,153 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-05 22:50:51,171 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:50:51,243 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:50:51,244 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:50:51,198 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:50:51,244 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:50:51,277 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:50:53,174 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:50:54,174 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-05 22:50:54,246 [1] [WARN ] [GameServer] :NetService Started
+2022-04-05 22:51:07,975 [3] [WARN ] [GameServer] :Client[127.0.0.1:50957]] Connected
+2022-04-05 22:51:08,036 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 22:51:08,228 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 22:51:19,930 [14] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-05 22:52:02,857 [14] [WARN ] [GameServer] :Client[127.0.0.1:50994]] Connected
+2022-04-05 22:52:02,916 [14] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-05 22:52:02,917 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111
+2022-04-05 22:57:27,756 [14] [WARN ] [GameServer] :Client[] Disconnected

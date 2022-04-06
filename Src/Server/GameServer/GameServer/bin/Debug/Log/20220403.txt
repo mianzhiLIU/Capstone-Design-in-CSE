@@ -1,0 +1,36 @@
+
+2022-04-03 16:38:30,879 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-03 16:38:31,031 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-03 16:38:31,143 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-03 16:38:31,143 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-03 16:38:31,144 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-03 16:38:31,147 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-03 16:38:31,147 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-03 16:38:31,148 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-03 16:38:31,969 [13] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-03 16:38:32,985 [14] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-03 16:38:33,645 [1] [WARN ] [GameServer] :NetService Started
+2022-04-03 16:39:03,010 [4] [WARN ] [GameServer] :Client[127.0.0.1:61170]] Connected
+2022-04-03 16:39:03,079 [4] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-03 16:39:03,286 [7] [INFO ] [GameServer] :UserRegisterRequest: User:User123  Pass:111
+2022-04-03 16:39:09,738 [5] [WARN ] [GameServer] :Client[] Disconnected
+2022-04-03 17:44:00,754 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-03 17:44:00,872 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-03 17:44:00,915 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-03 17:44:00,915 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-03 17:44:00,915 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-03 17:44:00,915 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-03 17:44:00,915 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-03 17:44:00,915 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-03 17:44:01,886 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-03 17:44:02,886 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-03 17:44:02,989 [1] [WARN ] [GameServer] :NetService Started
+2022-04-03 17:44:18,300 [3] [WARN ] [GameServer] :Client[127.0.0.1:52544]] Connected
+2022-04-03 17:44:18,369 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-03 17:44:18,565 [5] [INFO ] [GameServer] :UserRegisterRequest: User:user123  Pass:111
+2022-04-03 17:45:38,242 [14] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-03 17:45:38,243 [5] [INFO ] [GameServer] :UserRegisterRequest: User:user001  Pass:111
+2022-04-03 17:46:09,451 [13] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-03 17:46:09,452 [5] [INFO ] [GameServer] :UserRegisterRequest: User:user001  Pass:111
+2022-04-03 17:48:04,924 [16] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-03 17:48:04,927 [5] [INFO ] [GameServer] :UserLoginRequest: User:user001  Pass:111

@@ -1,0 +1,188 @@
+
+2021-11-02 10:03:17,827 [1] [INFO ] [GameServer] :Game Server Init
+2021-11-02 10:06:36,311 [1] [INFO ] [GameServer] :Game Server Init
+2021-11-02 10:06:36,365 [1] [WARN ] [GameServer] :Starting Listener...
+2021-11-02 10:06:36,376 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 10:06:36,376 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 10:06:36,378 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 10:06:36,378 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 10:06:36,378 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 10:06:36,379 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 10:06:37,381 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 10:06:38,378 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 10:06:38,438 [1] [WARN ] [GameServer] :NetService Started
+2021-11-02 10:06:43,276 [1] [INFO ] [GameServer] :Game Server Init
+2021-11-02 10:06:43,321 [1] [WARN ] [GameServer] :Starting Listener...
+2021-11-02 10:06:43,327 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 10:06:43,329 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 10:06:43,331 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 10:06:43,331 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 10:06:43,331 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 10:06:43,331 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 10:06:44,333 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 10:06:45,327 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 10:06:45,390 [1] [WARN ] [GameServer] :NetService Started
+2021-11-02 10:07:00,186 [3] [WARN ] [GameServer] :Client[127.0.0.1:50408]] Connected
+2021-11-02 10:07:10,663 [14] [WARN ] [GameServer] :Client[] Disconnected
+2021-11-02 10:09:05,810 [13] [WARN ] [GameServer] :Client[127.0.0.1:50526]] Connected
+2021-11-02 10:09:05,810 [14] [WARN ] [GameServer] :Client[] Disconnected
+2021-11-02 10:09:53,571 [3] [WARN ] [GameServer] :Client[127.0.0.1:50554]] Connected
+2021-11-02 10:09:57,196 [16] [WARN ] [GameServer] :Client[] Disconnected
+2021-11-02 10:10:19,049 [15] [WARN ] [GameServer] :Client[127.0.0.1:50565]] Connected
+2021-11-02 10:10:19,049 [3] [WARN ] [GameServer] :Client[] Disconnected
+2021-11-02 10:10:23,526 [15] [WARN ] [GameServer] :Client[127.0.0.1:50598]] Connected
+2021-11-02 10:10:54,145 [15] [WARN ] [GameServer] :Client[] Disconnected
+2021-11-02 10:32:48,730 [1] [INFO ] [GameServer] :Game Server Init
+2021-11-02 10:32:48,784 [1] [WARN ] [GameServer] :Starting Listener...
+2021-11-02 10:32:48,868 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 10:32:48,868 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 10:32:48,868 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 10:32:48,868 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 10:32:48,868 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 10:32:48,869 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 10:32:49,798 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 10:32:50,826 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 10:33:28,911 [1] [WARN ] [GameServer] :NetService Started
+2021-11-02 10:35:00,596 [1] [INFO ] [GameServer] :Game Server Init
+2021-11-02 10:35:00,652 [1] [WARN ] [GameServer] :Starting Listener...
+2021-11-02 10:35:00,777 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 10:35:00,777 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 10:35:00,778 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 10:35:00,779 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 10:35:00,779 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 10:35:00,779 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 10:35:01,665 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 10:35:02,673 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 10:35:02,717 [1] [WARN ] [GameServer] :NetService Started
+2021-11-02 10:35:08,624 [3] [WARN ] [GameServer] :Client[127.0.0.1:58556]] Connected
+2021-11-02 10:35:10,966 [14] [WARN ] [GameServer] :Client[] Disconnected
+2021-11-02 10:56:03,088 [1] [INFO ] [GameServer] :Game Server Init
+2021-11-02 10:56:03,139 [1] [WARN ] [GameServer] :Starting Listener...
+2021-11-02 10:56:03,236 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 10:56:03,236 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 10:56:03,237 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 10:56:03,237 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 10:56:03,237 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 10:56:03,239 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 10:56:04,145 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 10:56:04,653 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:01:33,407 [1] [INFO ] [GameServer] :Game Server Init
+2021-11-02 11:01:33,458 [1] [WARN ] [GameServer] :Starting Listener...
+2021-11-02 11:01:33,553 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:01:33,553 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:01:33,553 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:01:33,554 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:01:33,554 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:01:33,555 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:01:34,478 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:01:35,478 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:01:35,538 [1] [WARN ] [GameServer] :NetService Started
+2021-11-02 11:01:51,063 [3] [WARN ] [GameServer] :Client[127.0.0.1:50185]] Connected
+2021-11-02 11:01:52,992 [14] [WARN ] [GameServer] :Client[] Disconnected
+2021-11-02 11:04:55,204 [1] [INFO ] [GameServer] :Game Server Init
+2021-11-02 11:04:55,251 [1] [WARN ] [GameServer] :Starting Listener...
+2021-11-02 11:04:55,331 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:04:55,331 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:04:55,331 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:04:55,332 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:04:55,333 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:04:55,333 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:04:56,260 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:04:57,260 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:04:57,335 [1] [WARN ] [GameServer] :NetService Started
+2021-11-02 11:04:59,729 [3] [WARN ] [GameServer] :Client[127.0.0.1:61554]] Connected
+2021-11-02 11:05:04,660 [3] [WARN ] [GameServer] :Client[] Disconnected
+2021-11-02 11:05:11,425 [3] [WARN ] [GameServer] :Client[127.0.0.1:61574]] Connected
+2021-11-02 11:05:14,480 [14] [WARN ] [GameServer] :Client[] Disconnected
+2021-11-02 11:07:14,787 [1] [INFO ] [GameServer] :Game Server Init
+2021-11-02 11:07:14,839 [1] [WARN ] [GameServer] :Starting Listener...
+2021-11-02 11:07:14,899 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:07:14,899 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:07:14,901 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:07:14,901 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:07:14,901 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:07:14,903 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:07:15,852 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:07:16,851 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:07:16,910 [1] [WARN ] [GameServer] :NetService Started
+2021-11-02 11:07:19,796 [3] [WARN ] [GameServer] :Client[127.0.0.1:61988]] Connected
+2021-11-02 11:07:24,659 [14] [WARN ] [GameServer] :Client[] Disconnected
+2021-11-02 11:17:06,901 [1] [INFO ] [GameServer] :Game Server Init
+2021-11-02 11:17:06,955 [1] [WARN ] [GameServer] :Starting Listener...
+2021-11-02 11:17:07,027 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:17:07,027 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:17:07,028 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:17:07,028 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:17:07,029 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:17:07,031 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:17:07,975 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:17:08,970 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:17:13,194 [3] [WARN ] [GameServer] :Client[127.0.0.1:49643]] Connected
+2021-11-02 11:17:17,856 [1] [WARN ] [GameServer] :NetService Started
+2021-11-02 11:17:37,618 [1] [INFO ] [GameServer] :Game Server Init
+2021-11-02 11:17:37,665 [1] [WARN ] [GameServer] :Starting Listener...
+2021-11-02 11:17:37,715 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:17:37,716 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:17:37,716 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:17:37,716 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:17:37,716 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:17:37,716 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:17:38,687 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:17:39,682 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:17:42,666 [1] [WARN ] [GameServer] :NetService Started
+2021-11-02 11:17:48,236 [3] [WARN ] [GameServer] :Client[127.0.0.1:49682]] Connected
+2021-11-02 11:17:59,025 [14] [WARN ] [GameServer] :Client[] Disconnected
+2021-11-02 11:26:11,617 [1] [INFO ] [GameServer] :Game Server Init
+2021-11-02 11:26:11,671 [1] [WARN ] [GameServer] :Starting Listener...
+2021-11-02 11:26:11,778 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:26:11,778 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:26:11,811 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:26:11,811 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:26:11,811 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:26:11,811 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:26:12,714 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:26:13,684 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:26:13,745 [1] [WARN ] [GameServer] :NetService Started
+2021-11-02 11:26:19,088 [3] [WARN ] [GameServer] :Client[127.0.0.1:49801]] Connected
+2021-11-02 11:26:27,586 [14] [WARN ] [GameServer] :Client[] Disconnected
+2021-11-02 11:28:23,588 [1] [INFO ] [GameServer] :Game Server Init
+2021-11-02 11:28:26,537 [1] [WARN ] [GameServer] :Starting Listener...
+2021-11-02 11:28:26,584 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:28:26,584 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:28:26,584 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:28:26,584 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:28:26,585 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:28:26,584 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:28:27,558 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:28:28,559 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:28:28,617 [1] [WARN ] [GameServer] :NetService Started
+2021-11-02 11:28:35,586 [3] [WARN ] [GameServer] :Client[127.0.0.1:64385]] Connected
+2021-11-02 11:29:48,337 [14] [WARN ] [GameServer] :Client[] Disconnected
+2021-11-02 11:31:41,673 [1] [INFO ] [GameServer] :Game Server Init
+2021-11-02 11:31:41,724 [1] [WARN ] [GameServer] :Starting Listener...
+2021-11-02 11:31:41,751 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:31:41,751 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:31:41,753 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:31:41,754 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:31:41,754 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:31:41,755 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:31:42,730 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:31:43,744 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:31:43,804 [1] [WARN ] [GameServer] :NetService Started
+2021-11-02 11:31:57,791 [3] [WARN ] [GameServer] :Client[127.0.0.1:64459]] Connected
+2021-11-02 11:31:57,898 [14] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2021-11-02 11:32:02,616 [5] [INFO ] [GameServer] :OnFirstTestRequest : Hello World : Hello World!
+2021-11-02 11:43:06,376 [1] [INFO ] [GameServer] :Game Server Init
+2021-11-02 11:43:06,429 [1] [WARN ] [GameServer] :Starting Listener...
+2021-11-02 11:43:06,518 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:43:06,518 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:43:06,518 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:43:06,518 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:43:06,518 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:43:06,522 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:43:07,434 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:43:08,437 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2021-11-02 11:43:18,443 [1] [WARN ] [GameServer] :NetService Started
+2021-11-02 11:45:17,309 [3] [WARN ] [GameServer] :Client[127.0.0.1:58081]] Connected
+2021-11-02 11:45:17,413 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2021-11-02 11:45:17,513 [5] [INFO ] [GameServer] :OnFirstTestRequest : Hello World : Hello World!

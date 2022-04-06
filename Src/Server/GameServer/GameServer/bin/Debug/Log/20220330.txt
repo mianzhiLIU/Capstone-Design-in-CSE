@@ -1,0 +1,588 @@
+
+2022-03-30 18:16:05,879 [1] [INFO ] [GameServer] :Game Server Init
+2022-03-30 18:16:09,500 [1] [WARN ] [GameServer] :Starting Listener...
+2022-03-30 18:16:09,533 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 18:16:09,534 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 18:16:09,538 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 18:16:09,538 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 18:16:09,541 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 18:16:09,544 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 18:16:10,530 [13] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 18:16:11,535 [14] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 18:16:11,548 [1] [WARN ] [GameServer] :NetService Started
+2022-03-30 20:12:03,502 [1] [INFO ] [GameServer] :Game Server Init
+2022-03-30 20:12:03,772 [1] [WARN ] [GameServer] :Starting Listener...
+2022-03-30 20:12:03,777 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:12:03,777 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:12:03,777 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:12:03,777 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:12:03,777 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:12:03,777 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:12:04,784 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:12:05,791 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:12:07,730 [1] [WARN ] [GameServer] :NetService Started
+2022-03-30 20:12:26,506 [3] [WARN ] [GameServer] :Client[127.0.0.1:54813]] Connected
+2022-03-30 20:12:26,578 [3] [WARN ] [GameServer] :Client[] DataReceived Len:18
+2022-03-30 20:12:26,679 [5] [INFO ] [GameServer] :UserRegisterRequest: User:123  Pass:111
+2022-03-30 20:12:27,148 [5] [ERROR] [GameServer] :Message handler exception:System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'dbo.Users'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+ClientConnectionId:e544f401-606b-433a-9594-ff59df833b87
+Error Number:208,State:1,Class:16, An error occurred while executing the command definition. See the inner exception for details., EntityFramework,    at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at GameServer.Services.UserService.OnRegister(NetConnection`1 conn, UserRegisterRequest request) in E:\Github\Extreme-Wolrd\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:line 81
+   at Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) in E:\Github\Extreme-Wolrd\Src\Lib\Common\Network\MessageDistributer.cs:line 105
+2022-03-30 20:20:05,642 [1] [INFO ] [GameServer] :Game Server Init
+2022-03-30 20:20:05,766 [1] [WARN ] [GameServer] :Starting Listener...
+2022-03-30 20:20:05,810 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:20:05,811 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:20:05,814 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:20:05,818 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:20:05,822 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:20:05,823 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:20:07,283 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:20:10,271 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:20:10,300 [1] [WARN ] [GameServer] :NetService Started
+2022-03-30 20:20:30,196 [3] [WARN ] [GameServer] :Client[127.0.0.1:55040]] Connected
+2022-03-30 20:20:30,265 [3] [WARN ] [GameServer] :Client[] DataReceived Len:18
+2022-03-30 20:20:30,372 [5] [INFO ] [GameServer] :UserRegisterRequest: User:123  Pass:111
+2022-03-30 20:20:45,261 [5] [ERROR] [GameServer] :Message handler exception:System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20, The underlying provider failed on Open., EntityFramework,    at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at GameServer.Services.UserService.OnRegister(NetConnection`1 conn, UserRegisterRequest request) in E:\Github\Extreme-Wolrd\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:line 81
+   at Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) in E:\Github\Extreme-Wolrd\Src\Lib\Common\Network\MessageDistributer.cs:line 105
+2022-03-30 20:20:51,198 [3] [WARN ] [GameServer] :Client[] DataReceived Len:18
+2022-03-30 20:20:51,201 [5] [INFO ] [GameServer] :UserLoginRequest: User:123  Pass:111
+2022-03-30 20:20:51,221 [5] [ERROR] [GameServer] :Message handler exception:System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20, The underlying provider failed on Open., EntityFramework,    at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at GameServer.Services.UserService.OnLogin(NetConnection`1 sender, UserLoginRequest request) in E:\Github\Extreme-Wolrd\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:line 39
+   at Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) in E:\Github\Extreme-Wolrd\Src\Lib\Common\Network\MessageDistributer.cs:line 105
+2022-03-30 20:22:40,072 [1] [INFO ] [GameServer] :Game Server Init
+2022-03-30 20:22:40,247 [1] [WARN ] [GameServer] :Starting Listener...
+2022-03-30 20:22:40,293 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:22:40,294 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:22:40,294 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:22:40,295 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:22:40,301 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:22:40,301 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:22:41,262 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:22:42,266 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:22:42,366 [1] [WARN ] [GameServer] :NetService Started
+2022-03-30 20:22:58,952 [3] [WARN ] [GameServer] :Client[127.0.0.1:55087]] Connected
+2022-03-30 20:22:59,019 [3] [WARN ] [GameServer] :Client[] DataReceived Len:18
+2022-03-30 20:22:59,124 [5] [INFO ] [GameServer] :UserRegisterRequest: User:123  Pass:111
+2022-03-30 20:23:13,972 [5] [ERROR] [GameServer] :Message handler exception:System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20, The underlying provider failed on Open., EntityFramework,    at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at GameServer.Services.UserService.OnRegister(NetConnection`1 conn, UserRegisterRequest request) in E:\Github\Extreme-Wolrd\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:line 81
+   at Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) in E:\Github\Extreme-Wolrd\Src\Lib\Common\Network\MessageDistributer.cs:line 105
+2022-03-30 20:25:59,307 [1] [INFO ] [GameServer] :Game Server Init
+2022-03-30 20:25:59,439 [1] [WARN ] [GameServer] :Starting Listener...
+2022-03-30 20:25:59,474 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:25:59,474 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:25:59,474 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:25:59,474 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:25:59,475 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:25:59,476 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:26:00,461 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:26:01,458 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:26:01,470 [1] [WARN ] [GameServer] :NetService Started
+2022-03-30 20:26:12,258 [3] [WARN ] [GameServer] :Client[127.0.0.1:55132]] Connected
+2022-03-30 20:26:12,325 [3] [WARN ] [GameServer] :Client[] DataReceived Len:18
+2022-03-30 20:26:12,425 [5] [INFO ] [GameServer] :UserRegisterRequest: User:123  Pass:111
+2022-03-30 20:26:16,909 [14] [WARN ] [GameServer] :Client[] DataReceived Len:18
+2022-03-30 20:26:16,910 [6] [INFO ] [GameServer] :UserRegisterRequest: User:123  Pass:111
+2022-03-30 20:26:16,946 [6] [ERROR] [GameServer] :Message handler exception:System.InvalidOperationException: The connection was not closed. The connection's current state is connecting.
+   at System.Data.ProviderBase.DbConnectionClosedConnecting.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open(), The underlying provider failed on Open., EntityFramework,    at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at GameServer.Services.UserService.OnRegister(NetConnection`1 conn, UserRegisterRequest request) in E:\Github\Extreme-Wolrd\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:line 81
+   at Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) in E:\Github\Extreme-Wolrd\Src\Lib\Common\Network\MessageDistributer.cs:line 105
+2022-03-30 20:26:27,267 [5] [ERROR] [GameServer] :Message handler exception:System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20, The underlying provider failed on Open., EntityFramework,    at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at GameServer.Services.UserService.OnRegister(NetConnection`1 conn, UserRegisterRequest request) in E:\Github\Extreme-Wolrd\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:line 81
+   at Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) in E:\Github\Extreme-Wolrd\Src\Lib\Common\Network\MessageDistributer.cs:line 105
+2022-03-30 20:27:56,996 [1] [INFO ] [GameServer] :Game Server Init
+2022-03-30 20:27:57,107 [1] [WARN ] [GameServer] :Starting Listener...
+2022-03-30 20:27:57,111 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:27:57,111 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:27:57,149 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:27:57,149 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:27:57,149 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:27:57,149 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:27:58,122 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:27:59,119 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:27:59,149 [1] [WARN ] [GameServer] :NetService Started
+2022-03-30 20:28:10,275 [3] [WARN ] [GameServer] :Client[127.0.0.1:55187]] Connected
+2022-03-30 20:28:10,343 [3] [WARN ] [GameServer] :Client[] DataReceived Len:18
+2022-03-30 20:28:10,444 [5] [INFO ] [GameServer] :UserRegisterRequest: User:123  Pass:111
+2022-03-30 20:28:16,294 [14] [WARN ] [GameServer] :Client[] DataReceived Len:18
+2022-03-30 20:28:16,295 [6] [INFO ] [GameServer] :UserRegisterRequest: User:123  Pass:111
+2022-03-30 20:28:16,330 [6] [ERROR] [GameServer] :Message handler exception:System.InvalidOperationException: The connection was not closed. The connection's current state is connecting.
+   at System.Data.ProviderBase.DbConnectionClosedConnecting.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open(), The underlying provider failed on Open., EntityFramework,    at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at GameServer.Services.UserService.OnRegister(NetConnection`1 conn, UserRegisterRequest request) in E:\Github\Extreme-Wolrd\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:line 81
+   at Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) in E:\Github\Extreme-Wolrd\Src\Lib\Common\Network\MessageDistributer.cs:line 105
+2022-03-30 20:29:06,024 [1] [INFO ] [GameServer] :Game Server Init
+2022-03-30 20:29:06,237 [1] [WARN ] [GameServer] :Starting Listener...
+2022-03-30 20:29:06,256 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:29:06,256 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:29:06,301 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:29:06,309 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:29:06,309 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:29:06,310 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:29:08,250 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:29:09,257 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:29:09,332 [1] [WARN ] [GameServer] :NetService Started
+2022-03-30 20:29:33,600 [3] [WARN ] [GameServer] :Client[127.0.0.1:55211]] Connected
+2022-03-30 20:29:33,665 [3] [WARN ] [GameServer] :Client[] DataReceived Len:18
+2022-03-30 20:29:33,772 [5] [INFO ] [GameServer] :UserRegisterRequest: User:123  Pass:111
+2022-03-30 20:29:44,247 [13] [WARN ] [GameServer] :Client[] DataReceived Len:18
+2022-03-30 20:29:44,250 [6] [INFO ] [GameServer] :UserLoginRequest: User:123  Pass:111
+2022-03-30 20:29:44,293 [6] [ERROR] [GameServer] :Message handler exception:System.InvalidOperationException: The connection was not closed. The connection's current state is connecting.
+   at System.Data.ProviderBase.DbConnectionClosedConnecting.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open(), The underlying provider failed on Open., EntityFramework,    at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at GameServer.Services.UserService.OnLogin(NetConnection`1 sender, UserLoginRequest request) in E:\Github\Extreme-Wolrd\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:line 39
+   at Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) in E:\Github\Extreme-Wolrd\Src\Lib\Common\Network\MessageDistributer.cs:line 105
+2022-03-30 20:33:06,693 [1] [INFO ] [GameServer] :Game Server Init
+2022-03-30 20:33:06,846 [1] [WARN ] [GameServer] :Starting Listener...
+2022-03-30 20:33:06,855 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:33:06,855 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:33:06,857 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:33:06,864 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:33:06,865 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:33:06,886 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:33:07,853 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:33:08,368 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:33:09,077 [1] [WARN ] [GameServer] :NetService Started
+2022-03-30 20:33:31,324 [3] [WARN ] [GameServer] :Client[127.0.0.1:55363]] Connected
+2022-03-30 20:33:31,392 [3] [WARN ] [GameServer] :Client[] DataReceived Len:18
+2022-03-30 20:33:31,502 [5] [INFO ] [GameServer] :UserRegisterRequest: User:123  Pass:111
+2022-03-30 20:33:46,361 [5] [ERROR] [GameServer] :Message handler exception:System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20, The underlying provider failed on Open., EntityFramework,    at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at GameServer.Services.UserService.OnRegister(NetConnection`1 conn, UserRegisterRequest request) in E:\Github\Extreme-Wolrd\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:line 81
+   at Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) in E:\Github\Extreme-Wolrd\Src\Lib\Common\Network\MessageDistributer.cs:line 105
+2022-03-30 20:33:47,820 [3] [WARN ] [GameServer] :Client[] DataReceived Len:18
+2022-03-30 20:33:51,475 [6] [INFO ] [GameServer] :UserLoginRequest: User:123  Pass:111
+2022-03-30 20:33:51,494 [6] [ERROR] [GameServer] :Message handler exception:System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20, The underlying provider failed on Open., EntityFramework,    at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at GameServer.Services.UserService.OnLogin(NetConnection`1 sender, UserLoginRequest request) in E:\Github\Extreme-Wolrd\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:line 39
+   at Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) in E:\Github\Extreme-Wolrd\Src\Lib\Common\Network\MessageDistributer.cs:line 105
+2022-03-30 20:41:26,834 [1] [INFO ] [GameServer] :Game Server Init
+2022-03-30 20:41:27,021 [1] [WARN ] [GameServer] :Starting Listener...
+2022-03-30 20:41:27,061 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:41:27,061 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:41:27,061 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:41:27,061 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:41:27,062 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:41:27,063 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:41:28,039 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:41:29,037 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:41:40,674 [3] [WARN ] [GameServer] :Client[127.0.0.1:55470]] Connected
+2022-03-30 20:41:40,740 [14] [WARN ] [GameServer] :Client[] DataReceived Len:18
+2022-03-30 20:41:43,936 [1] [WARN ] [GameServer] :NetService Started
+2022-03-30 20:41:43,997 [5] [INFO ] [GameServer] :UserRegisterRequest: User:123  Pass:111
+2022-03-30 20:41:58,826 [5] [ERROR] [GameServer] :Message handler exception:System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20, The underlying provider failed on Open., EntityFramework,    at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at GameServer.Services.UserService.OnRegister(NetConnection`1 conn, UserRegisterRequest request) in E:\Github\Extreme-Wolrd\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:line 81
+   at Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) in E:\Github\Extreme-Wolrd\Src\Lib\Common\Network\MessageDistributer.cs:line 105
+2022-03-30 20:48:29,675 [1] [INFO ] [GameServer] :Game Server Init
+2022-03-30 20:48:29,761 [1] [WARN ] [GameServer] :Starting Listener...
+2022-03-30 20:48:29,764 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:48:29,764 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:48:29,764 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:48:29,764 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:48:29,764 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:48:29,765 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:48:30,767 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:48:31,771 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:48:31,894 [1] [WARN ] [GameServer] :NetService Started
+2022-03-30 20:50:03,867 [3] [WARN ] [GameServer] :Client[127.0.0.1:55618]] Connected
+2022-03-30 20:50:03,934 [3] [WARN ] [GameServer] :Client[] DataReceived Len:18
+2022-03-30 20:50:04,030 [5] [INFO ] [GameServer] :UserRegisterRequest: User:123  Pass:111
+2022-03-30 20:50:18,831 [5] [ERROR] [GameServer] :Message handler exception:System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20, The underlying provider failed on Open., EntityFramework,    at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at GameServer.Services.UserService.OnRegister(NetConnection`1 conn, UserRegisterRequest request) in E:\Github\Extreme-Wolrd\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:line 81
+   at Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) in E:\Github\Extreme-Wolrd\Src\Lib\Common\Network\MessageDistributer.cs:line 105
+2022-03-30 20:53:16,677 [1] [INFO ] [GameServer] :Game Server Init
+2022-03-30 20:53:17,030 [1] [WARN ] [GameServer] :Starting Listener...
+2022-03-30 20:53:17,105 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:53:17,107 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:53:17,107 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:53:17,115 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:53:17,144 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:53:17,144 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:53:18,547 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:53:19,540 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:53:19,600 [1] [WARN ] [GameServer] :NetService Started
+2022-03-30 20:53:30,922 [3] [WARN ] [GameServer] :Client[127.0.0.1:55674]] Connected
+2022-03-30 20:53:30,988 [3] [WARN ] [GameServer] :Client[] DataReceived Len:18
+2022-03-30 20:53:31,091 [5] [INFO ] [GameServer] :UserRegisterRequest: User:123  Pass:111
+2022-03-30 20:53:42,505 [14] [WARN ] [GameServer] :Client[] DataReceived Len:18
+2022-03-30 20:53:42,508 [6] [INFO ] [GameServer] :UserLoginRequest: User:123  Pass:111
+2022-03-30 20:53:42,544 [6] [ERROR] [GameServer] :Message handler exception:System.InvalidOperationException: The connection was not closed. The connection's current state is connecting.
+   at System.Data.ProviderBase.DbConnectionClosedConnecting.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open(), The underlying provider failed on Open., EntityFramework,    at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at GameServer.Services.UserService.OnLogin(NetConnection`1 sender, UserLoginRequest request) in E:\Github\Extreme-Wolrd\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:line 39
+   at Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) in E:\Github\Extreme-Wolrd\Src\Lib\Common\Network\MessageDistributer.cs:line 105
+2022-03-30 20:53:45,947 [5] [ERROR] [GameServer] :Message handler exception:System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20, The underlying provider failed on Open., EntityFramework,    at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at GameServer.Services.UserService.OnRegister(NetConnection`1 conn, UserRegisterRequest request) in E:\Github\Extreme-Wolrd\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:line 81
+   at Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) in E:\Github\Extreme-Wolrd\Src\Lib\Common\Network\MessageDistributer.cs:line 105
+2022-03-30 20:55:09,388 [1] [INFO ] [GameServer] :Game Server Init
+2022-03-30 20:55:09,537 [1] [WARN ] [GameServer] :Starting Listener...
+2022-03-30 20:55:09,629 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:55:09,629 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:55:09,630 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:55:09,631 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:55:09,630 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:55:09,631 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:55:10,556 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:55:11,560 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 20:55:11,662 [1] [WARN ] [GameServer] :NetService Started
+2022-03-30 21:00:27,195 [1] [INFO ] [GameServer] :Game Server Init
+2022-03-30 21:00:27,317 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-03-30 21:00:43,024 [1] [INFO ] [GameServer] :Game Server Init
+2022-03-30 21:00:43,104 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-03-30 21:01:02,254 [1] [INFO ] [GameServer] :Game Server Init
+2022-03-30 21:01:02,329 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-03-30 21:01:19,661 [1] [INFO ] [GameServer] :Game Server Init
+2022-03-30 21:01:19,734 [1] [INFO ] [GameServer] :DataManager > DataManager()
+2022-03-30 21:01:19,738 [1] [WARN ] [GameServer] :Starting Listener...
+2022-03-30 21:01:19,745 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 21:01:19,747 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 21:01:19,747 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 21:01:19,747 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 21:01:19,748 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 21:01:19,748 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 21:01:20,743 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 21:01:21,748 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-03-30 21:01:21,764 [1] [WARN ] [GameServer] :NetService Started
+2022-03-30 21:01:37,849 [3] [WARN ] [GameServer] :Client[127.0.0.1:55779]] Connected
+2022-03-30 21:01:37,915 [3] [WARN ] [GameServer] :Client[] DataReceived Len:18
+2022-03-30 21:01:38,014 [5] [INFO ] [GameServer] :UserRegisterRequest: User:123  Pass:111
+2022-03-30 21:01:38,255 [5] [ERROR] [GameServer] :Message handler exception:System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'dbo.Users'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+ClientConnectionId:132c9ba6-ba4e-4219-a29e-30f799ae5e8d
+Error Number:208,State:1,Class:16, An error occurred while executing the command definition. See the inner exception for details., EntityFramework,    at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at GameServer.Services.UserService.OnRegister(NetConnection`1 conn, UserRegisterRequest request) in E:\Github\Extreme-Wolrd\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:line 81
+   at Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) in E:\Github\Extreme-Wolrd\Src\Lib\Common\Network\MessageDistributer.cs:line 105

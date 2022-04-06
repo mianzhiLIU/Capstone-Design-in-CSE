@@ -1,0 +1,352 @@
+
+2022-04-01 11:14:29,622 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-01 11:14:29,704 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-01 11:14:29,707 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:14:29,707 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:14:29,708 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:14:29,708 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:14:29,708 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:14:29,708 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:14:30,719 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:14:31,711 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:14:32,593 [1] [WARN ] [GameServer] :NetService Started
+2022-04-01 11:14:37,130 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-01 11:14:37,295 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-01 11:14:37,328 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:14:37,329 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:14:37,329 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:14:37,329 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:14:37,329 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:14:37,329 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:14:38,310 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:14:39,309 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:14:40,074 [1] [WARN ] [GameServer] :NetService Started
+2022-04-01 11:15:07,728 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-01 11:15:07,906 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-01 11:15:07,923 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:15:07,923 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:15:07,923 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:15:07,923 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:15:07,923 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:15:07,923 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:15:08,928 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:15:09,922 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:15:09,950 [1] [WARN ] [GameServer] :NetService Started
+2022-04-01 11:16:03,119 [3] [WARN ] [GameServer] :Client[127.0.0.1:51165]] Connected
+2022-04-01 11:16:03,196 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-01 11:16:03,303 [5] [INFO ] [GameServer] :UserRegisterRequest: User:user123  Pass:111
+2022-04-01 11:16:03,874 [5] [ERROR] [GameServer] :Message handler exception:System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'dbo.Users'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+ClientConnectionId:97b561f9-9893-4521-a0b7-34abc7c87c31
+Error Number:208,State:1,Class:16, An error occurred while executing the command definition. See the inner exception for details., EntityFramework,    at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at GameServer.Services.UserService.OnRegister(NetConnection`1 sender, UserRegisterRequest request) in E:\Github\Extreme-Wolrd\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:line 80
+   at Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) in E:\Github\Extreme-Wolrd\Src\Lib\Common\Network\MessageDistributer.cs:line 105
+2022-04-01 11:26:53,552 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-01 11:26:53,664 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-01 11:26:53,745 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:26:53,745 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:26:53,745 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:26:53,745 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:26:53,746 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:26:53,749 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:27:01,355 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-01 11:27:01,466 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-01 11:27:01,476 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:27:01,476 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:27:01,476 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:27:01,477 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:27:01,479 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:27:01,479 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:27:02,480 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:27:03,486 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:27:03,513 [1] [WARN ] [GameServer] :NetService Started
+2022-04-01 11:27:24,553 [3] [WARN ] [GameServer] :Client[127.0.0.1:64729]] Connected
+2022-04-01 11:27:24,618 [3] [WARN ] [GameServer] :Client[] DataReceived Len:18
+2022-04-01 11:27:24,721 [5] [INFO ] [GameServer] :UserRegisterRequest: User:123  Pass:111
+2022-04-01 11:27:25,051 [5] [ERROR] [GameServer] :Message handler exception:System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'dbo.Users'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+ClientConnectionId:f2fc6260-98e6-4416-8329-c49fce70515e
+Error Number:208,State:1,Class:16, An error occurred while executing the command definition. See the inner exception for details., EntityFramework,    at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at GameServer.Services.UserService.OnRegister(NetConnection`1 sender, UserRegisterRequest request) in E:\Github\Extreme-Wolrd\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:line 80
+   at Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) in E:\Github\Extreme-Wolrd\Src\Lib\Common\Network\MessageDistributer.cs:line 105
+2022-04-01 11:42:05,305 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-01 11:42:05,410 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-01 11:42:05,425 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:42:05,426 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:42:05,427 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:42:05,429 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:42:05,430 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:42:05,432 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:42:06,435 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:42:07,419 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:42:07,507 [1] [WARN ] [GameServer] :NetService Started
+2022-04-01 11:42:33,068 [3] [WARN ] [GameServer] :Client[127.0.0.1:56618]] Connected
+2022-04-01 11:42:33,143 [3] [WARN ] [GameServer] :Client[] DataReceived Len:18
+2022-04-01 11:42:46,714 [5] [INFO ] [GameServer] :UserRegisterRequest: User:111  Pass:123
+2022-04-01 11:44:09,124 [5] [ERROR] [GameServer] :Message handler exception:System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'dbo.Users'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+ClientConnectionId:c3e176cb-441d-408a-a4b1-5bdda825133a
+Error Number:208,State:1,Class:16, An error occurred while executing the command definition. See the inner exception for details., EntityFramework,    at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at GameServer.Services.UserService.OnRegister(NetConnection`1 sender, UserRegisterRequest request) in E:\Github\Extreme-Wolrd\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:line 80
+   at Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) in E:\Github\Extreme-Wolrd\Src\Lib\Common\Network\MessageDistributer.cs:line 105
+2022-04-01 11:44:32,422 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-01 11:44:32,524 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-01 11:44:32,581 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:44:32,582 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:44:32,583 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:44:32,586 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:44:32,587 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:44:32,587 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:44:32,588 [3] [WARN ] [GameServer] :Client[127.0.0.1:56656]] Connected
+2022-04-01 11:44:35,030 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:44:36,036 [13] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:44:36,124 [1] [WARN ] [GameServer] :NetService Started
+2022-04-01 11:44:41,627 [10] [WARN ] [GameServer] :Client[] DataReceived Len:18
+2022-04-01 11:44:45,332 [5] [INFO ] [GameServer] :UserRegisterRequest: User:111  Pass:123
+2022-04-01 11:45:06,241 [5] [ERROR] [GameServer] :Message handler exception:System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'dbo.Users'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+ClientConnectionId:da10f2c1-a377-4cb3-b233-ba167f2989be
+Error Number:208,State:1,Class:16, An error occurred while executing the command definition. See the inner exception for details., EntityFramework,    at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at GameServer.Services.UserService.OnRegister(NetConnection`1 sender, UserRegisterRequest request) in E:\Github\Extreme-Wolrd\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:line 80
+   at Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) in E:\Github\Extreme-Wolrd\Src\Lib\Common\Network\MessageDistributer.cs:line 105
+2022-04-01 11:45:10,354 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-01 11:45:10,478 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-01 11:45:10,517 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:45:10,527 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:45:10,529 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:45:10,526 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:45:10,553 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:45:10,554 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:45:10,864 [3] [WARN ] [GameServer] :Client[127.0.0.1:56670]] Connected
+2022-04-01 11:45:12,493 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:45:13,486 [13] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:45:13,544 [1] [WARN ] [GameServer] :NetService Started
+2022-04-01 11:45:15,056 [3] [WARN ] [GameServer] :Client[] DataReceived Len:18
+2022-04-01 11:45:31,323 [5] [INFO ] [GameServer] :UserRegisterRequest: User:111  Pass:123
+2022-04-01 11:46:09,301 [5] [ERROR] [GameServer] :Message handler exception:System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'dbo.Users'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+ClientConnectionId:c8781223-0fc4-4c20-b7ac-6d0698f18494
+Error Number:208,State:1,Class:16, An error occurred while executing the command definition. See the inner exception for details., EntityFramework,    at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at GameServer.Services.UserService.OnRegister(NetConnection`1 sender, UserRegisterRequest request) in E:\Github\Extreme-Wolrd\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:line 80
+   at Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) in E:\Github\Extreme-Wolrd\Src\Lib\Common\Network\MessageDistributer.cs:line 105
+2022-04-01 11:58:19,542 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-01 11:58:20,235 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-01 11:58:20,264 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:58:20,264 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:58:20,302 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:58:20,303 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:58:20,302 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:58:20,304 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:58:21,759 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:58:22,749 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:58:22,838 [1] [WARN ] [GameServer] :NetService Started
+2022-04-01 11:58:47,353 [3] [WARN ] [GameServer] :Client[127.0.0.1:60919]] Connected
+2022-04-01 11:58:47,421 [3] [WARN ] [GameServer] :Client[] DataReceived Len:18
+2022-04-01 11:59:39,562 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-01 11:59:39,747 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-01 11:59:39,811 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:59:39,811 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:59:39,812 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:59:39,812 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:59:39,820 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:59:39,823 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:59:41,766 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:59:42,764 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 11:59:42,822 [1] [WARN ] [GameServer] :NetService Started
+2022-04-01 11:59:56,749 [3] [WARN ] [GameServer] :Client[127.0.0.1:60959]] Connected
+2022-04-01 11:59:56,824 [3] [WARN ] [GameServer] :Client[] DataReceived Len:18
+2022-04-01 11:59:57,021 [5] [INFO ] [GameServer] :UserRegisterRequest: User:123  Pass:111
+2022-04-01 11:59:57,338 [5] [ERROR] [GameServer] :Message handler exception:System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'dbo.Users'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+ClientConnectionId:1409b4b6-01d6-43b3-aef3-322c9d86fe8b
+Error Number:208,State:1,Class:16, An error occurred while executing the command definition. See the inner exception for details., EntityFramework,    at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at GameServer.Services.UserService.OnRegister(NetConnection`1 sender, UserRegisterRequest request) in E:\Github\Extreme-Wolrd\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:line 80
+   at Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) in E:\Github\Extreme-Wolrd\Src\Lib\Common\Network\MessageDistributer.cs:line 105
+2022-04-01 12:03:43,181 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-01 12:03:43,326 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-01 12:03:43,370 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 12:03:43,370 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 12:03:43,370 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 12:03:43,372 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 12:03:43,373 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 12:03:43,374 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 12:03:44,335 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 12:03:44,849 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 12:03:44,954 [1] [WARN ] [GameServer] :NetService Started
+2022-04-01 12:03:49,894 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-01 12:03:50,015 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-01 12:03:50,022 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 12:03:50,022 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 12:03:50,023 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 12:03:50,023 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 12:03:50,026 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 12:03:50,028 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 12:03:51,533 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 12:03:52,519 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 12:03:52,609 [1] [WARN ] [GameServer] :NetService Started
+2022-04-01 12:04:12,852 [3] [WARN ] [GameServer] :Client[127.0.0.1:61103]] Connected
+2022-04-01 12:04:12,923 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-01 12:04:13,118 [5] [INFO ] [GameServer] :UserRegisterRequest: User:user123  Pass:111
+2022-04-01 12:04:13,432 [5] [ERROR] [GameServer] :Message handler exception:System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'dbo.Users'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+ClientConnectionId:733ef452-2641-4966-9257-1404c6e79a99
+Error Number:208,State:1,Class:16, An error occurred while executing the command definition. See the inner exception for details., EntityFramework,    at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at GameServer.Services.UserService.OnRegister(NetConnection`1 sender, UserRegisterRequest request) in E:\Github\Extreme-Wolrd\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:line 80
+   at Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) in E:\Github\Extreme-Wolrd\Src\Lib\Common\Network\MessageDistributer.cs:line 105
+2022-04-01 12:47:32,785 [1] [INFO ] [GameServer] :Game Server Init
+2022-04-01 12:47:32,890 [1] [WARN ] [GameServer] :Starting Listener...
+2022-04-01 12:47:32,896 [7] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 12:47:32,897 [5] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 12:47:32,897 [9] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 12:47:32,902 [6] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 12:47:32,902 [10] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 12:47:32,904 [8] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 12:47:34,410 [11] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 12:47:36,405 [12] [WARN ] [GameServer] :MessageDistribute thread start
+2022-04-01 12:48:01,065 [3] [WARN ] [GameServer] :Client[127.0.0.1:56524]] Connected
+2022-04-01 12:48:01,141 [13] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-01 12:48:04,442 [1] [WARN ] [GameServer] :NetService Started
+2022-04-01 12:48:04,609 [5] [INFO ] [GameServer] :UserRegisterRequest: User:user123  Pass:111
+2022-04-01 12:48:23,313 [3] [WARN ] [GameServer] :Client[] DataReceived Len:22
+2022-04-01 12:48:23,316 [5] [INFO ] [GameServer] :UserLoginRequest: User:user123  Pass:111
+2022-04-01 12:48:52,783 [3] [WARN ] [GameServer] :Client[] Disconnected
